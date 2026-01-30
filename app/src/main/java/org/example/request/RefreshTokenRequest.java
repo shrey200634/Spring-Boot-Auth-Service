@@ -13,5 +13,6 @@ import lombok.NoArgsConstructor;
 public class RefreshTokenRequest {
     private String username ;
     private String password ;
+    private String token;
 
 }

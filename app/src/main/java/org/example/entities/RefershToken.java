@@ -20,8 +20,6 @@ import java.time.Instant;
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Table(name ="tokens")
 
-
-
 public class RefershToken {
 
     @Id
