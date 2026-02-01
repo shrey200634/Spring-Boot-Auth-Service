@@ -27,6 +27,8 @@ dependencies {
 
     // --- Database ---
     implementation 'com.mysql:mysql-connector-j:9.1.0'
+    implementation 'mysql:mysql-connector-java:8.0.33'
+// or simply: runtimeOnly 'com.mysql:mysql-connector-j'
 
     // --- Utilities ---
     implementation 'org.modelmapper:modelmapper:3.2.2'
